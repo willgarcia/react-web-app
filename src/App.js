@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://mydemo-default.apps.rosa.gd1.1u4e.p3.openshiftapps.com/index.html');
+        const response = await fetch('https://my-demo-secured-default.apps.rosa.gd1.1u4e.p3.openshiftapps.com/index.html');
         const data = await response.json();
 
         setData(data);
